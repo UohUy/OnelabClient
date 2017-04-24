@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Onelab Client</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>photo.ico</normaloff>photo.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>291</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>291</width>
+      <height>641</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>291</width>
+      <height>641</height>
+     </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">Manu</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Module</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Geometry</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Elementary entities</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Parameter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Straight line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spline</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B-Spline</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Circle arc</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ellipse arc</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ruled surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Translate</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude surface</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rotate</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extrude surface</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Scale</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Symmetry</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Duplicate volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Split</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Coherence</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Physical groups</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Remove</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Reload script</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Remove last script command</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Edit script</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mesh</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Define</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Size fields</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Element size at points</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Embedded points</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Recombine</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Transfinite</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Compound</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Surface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>1D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Optimize 3D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Optimize 3D (Netgen)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Set order 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Set order 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Set order 3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>High order tools</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Inspect</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Refine by splitting</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Partition</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Smooth 2D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Reclassify 2D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Elements</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lines</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Surfaces</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Volumes</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </item>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>GetDP</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Computer command</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gmsh</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Mesh Name</string>
+      </property>
+     </item>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>610</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Run</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuRemote">
+     <property name="title">
+      <string>Remote</string>
+     </property>
+     <addaction name="actionStart"/>
+     <addaction name="actionMerge_2"/>
+     <addaction name="actionClear_2"/>
+     <addaction name="actionStop"/>
+    </widget>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Recent"/>
+    <addaction name="actionMerge"/>
+    <addaction name="actionWatch_Pattern"/>
+    <addaction name="actionClear"/>
+    <addaction name="separator"/>
+    <addaction name="menuRemote"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="actionSave_Meth"/>
+    <addaction name="actionSave_Mesh"/>
+    <addaction name="actionSave_Module"/>
+    <addaction name="actionSave_Options_As_Default"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionOptions"/>
+    <addaction name="actionPlugins"/>
+    <addaction name="actionVisibility"/>
+    <addaction name="actionClipping"/>
+    <addaction name="actionManipulator"/>
+    <addaction name="separator"/>
+    <addaction name="actionStatitics"/>
+    <addaction name="actionMessage_Consol"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionNew_Window"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy_To_Clip_Board"/>
+    <addaction name="separator"/>
+    <addaction name="actionHorizontally"/>
+    <addaction name="actionSplit_Vertically"/>
+    <addaction name="actionUnsplit"/>
+    <addaction name="separator"/>
+    <addaction name="actionMinimize"/>
+    <addaction name="actionZoom"/>
+    <addaction name="actionEnter_Full_Screen"/>
+    <addaction name="actionAttach_Detach_Manu"/>
+    <addaction name="separator"/>
+    <addaction name="actionBring_All_To_Front"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionOnline_Document"/>
+    <addaction name="separator"/>
+    <addaction name="actionKeyboard_And_Mouse_Usage"/>
+    <addaction name="separator"/>
+    <addaction name="actionCurrent_Option_And_Space"/>
+    <addaction name="actionRestore_all_Options_to_Default_Setting"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_OnelabClient"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionOpen_Recent">
+   <property name="text">
+    <string>Open Recent</string>
+   </property>
+  </action>
+  <action name="actionMerge">
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </action>
+  <action name="actionWatch_Pattern">
+   <property name="text">
+    <string>Watch Pattern</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Rename</string>
+   </property>
+  </action>
+  <action name="actionSave_Meth">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actionSave_Mesh">
+   <property name="text">
+    <string>Save Mesh</string>
+   </property>
+  </action>
+  <action name="actionSave_Module">
+   <property name="text">
+    <string>Save Module Option</string>
+   </property>
+  </action>
+  <action name="actionSave_Options_As_Default">
+   <property name="text">
+    <string>Save Options As Default</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="text">
+    <string>Options</string>
+   </property>
+  </action>
+  <action name="actionPlugins">
+   <property name="text">
+    <string>Plugins</string>
+   </property>
+  </action>
+  <action name="actionVisibility">
+   <property name="text">
+    <string>Visibility</string>
+   </property>
+  </action>
+  <action name="actionClipping">
+   <property name="text">
+    <string>Clipping</string>
+   </property>
+  </action>
+  <action name="actionManipulator">
+   <property name="text">
+    <string>Manipulator</string>
+   </property>
+  </action>
+  <action name="actionStatitics">
+   <property name="text">
+    <string>Statitics</string>
+   </property>
+  </action>
+  <action name="actionMessage_Consol">
+   <property name="text">
+    <string>Message Console</string>
+   </property>
+  </action>
+  <action name="actionStart">
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </action>
+  <action name="actionMerge_2">
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </action>
+  <action name="actionClear_2">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </action>
+  <action name="actionNew_Window">
+   <property name="text">
+    <string>New Window</string>
+   </property>
+  </action>
+  <action name="actionCopy_To_Clip_Board">
+   <property name="text">
+    <string>Copy to Clipboard</string>
+   </property>
+  </action>
+  <action name="actionHorizontally">
+   <property name="text">
+    <string>Split Horizontally</string>
+   </property>
+  </action>
+  <action name="actionSplit_Vertically">
+   <property name="text">
+    <string>Split Vertically</string>
+   </property>
+  </action>
+  <action name="actionUnsplit">
+   <property name="text">
+    <string>Unsplit</string>
+   </property>
+  </action>
+  <action name="actionMinimize">
+   <property name="text">
+    <string>Minimize</string>
+   </property>
+  </action>
+  <action name="actionZoom">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionEnter_Full_Screen">
+   <property name="text">
+    <string>Enter Full Screen</string>
+   </property>
+  </action>
+  <action name="actionAttach_Detach_Manu">
+   <property name="text">
+    <string>Attach/Detach Manu</string>
+   </property>
+  </action>
+  <action name="actionBring_All_To_Front">
+   <property name="text">
+    <string>Bring all to Front</string>
+   </property>
+  </action>
+  <action name="actionOnline_Document">
+   <property name="text">
+    <string>Online Document</string>
+   </property>
+  </action>
+  <action name="actionKeyboard_And_Mouse_Usage">
+   <property name="text">
+    <string>Keyboard and Mouse Usage</string>
+   </property>
+  </action>
+  <action name="actionCurrent_Option_And_Space">
+   <property name="text">
+    <string>Current Option and Space</string>
+   </property>
+  </action>
+  <action name="actionRestore_all_Options_to_Default_Setting">
+   <property name="text">
+    <string>Restore all Options to Default Setting</string>
+   </property>
+  </action>
+  <action name="actionAbout_OnelabClient">
+   <property name="text">
+    <string>About OnelabClient</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

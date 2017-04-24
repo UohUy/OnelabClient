@@ -1,0 +1,28 @@
+$MeshFormat
+2.2 0 8
+$EndMeshFormat
+$Nodes
+3
+1 0 0 0
+2 0 -1.0 0
+3 0 -2.0 0
+$EndNodes
+$Elements
+3
+1 1 2 0 1 1 2
+2 1 2 0 1 2 3
+3 15 2 0 2 3
+$EndElements
+$NodeData
+1
+"motion"
+1
+	20.000000
+3
+	199
+3
+	3
+	1 0 0 0
+	2 -0.181856 0.016675 0
+	3 -1.127665 1.341399 0
+$EndNodeData
